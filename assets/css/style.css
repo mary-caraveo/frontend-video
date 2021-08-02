@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+}
+
+.header {
+    background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    width: 100%;
+    height: 80px;
+}
+
+.header__img {
+    width: 150px;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul{
+display: none;
+position: absolute;
+list-style: none;
+padding: 0px;
+width: 100px;
+text-align: right;
+margin: 0px 0px 0px -14px;
+}
+
+.header__menu--profile{
+margin-right: 8px;
+width: 40px;
+}
