@@ -76,7 +76,12 @@ ul:hover {
 }
 
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 300px;
+  border-radius: 0px 0px 40px 40px;
 }
 
 .main_title {
@@ -99,6 +104,14 @@ ul:hover {
 
 ::placeholder {
   color: white;
+}
+
+.categories_title {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  padding-left: 30px;
+  width: 100%;
 }
 
 .carousel {
