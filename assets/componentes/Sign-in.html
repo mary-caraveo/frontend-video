@@ -11,15 +11,15 @@
 
 <body>
 <header class="header">
-    <img class="header__img" src="../img/kisspng.png" alt="">
+    <img  class="header__img" tabindex="0" src="../img/kisspng.png" alt="logo">
 </header>
 
 <section class="login">
     <section class="login__container">
-        <h2>Inicia sesión</h2>
+        <h2 tabindex="0">Inicia sesión</h2>
         <form action="" class="login__container--form">
-            <input class="input" type="text" placeholder="correo" >
-            <input class="input" type="password" placeholder="contraseña" >
+            <input class="input" aria-label="correo" type="text" placeholder="correo" >
+            <input class="input" aria-label="contraseña" type="password" placeholder="contraseña" >
             <button class="button">Iniciar sesión</button>
             <div class="login__container--remember-me">
                 <label>
@@ -30,8 +30,8 @@
         </form>
 
         <section class="login__container--social-media">
-            <div><img src="../img/google-.png" alt="Google">Inicia sesión con Google</div>
-            <div><img src="../img/facebook-.png" alt="Facebook">Inicia sesión con Facebook</div>
+            <div><img tabindex="0" src="../img/google-.png" alt="Google">Inicia sesión con Google</div>
+            <div><img tabindex="0" src="../img/facebook-.png" alt="Facebook">Inicia sesión con Facebook</div>
         </section>
 
         <p class="login__container--register">No tienes ninguna cuenta <a href="../componentes/Sign-up.html">Registrate</a></p>
