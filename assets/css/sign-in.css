@@ -19,6 +19,7 @@ body {
 
 .header__img {
   width: 150px;
+  padding-top: 45px;
 }
 
 .login {
@@ -111,6 +112,10 @@ body {
   height: 50px;
 }
 
+.input:hover {
+  border-bottom: 2px solid #656fc5;
+}
+
 ::placeholder {
   color: purple;
 }
@@ -127,6 +132,10 @@ body {
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
+}
+
+.button:hover {
+transform: scale(1.1);
 }
 
 .footer {
