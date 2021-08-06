@@ -95,6 +95,7 @@ ul:hover {
 .main_title {
   color: white;
   font-size: 25px;
+  outline: none;
 }
 
 .input {
@@ -176,8 +177,8 @@ ul:hover {
 
 .carousel-item__img {
   border-radius: 20px;
-  width: 220px;
-  height: 280px;
+  width: 200px;
+  height: 250px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -271,6 +272,7 @@ ul:hover {
 
 .container__notFound--image img {
   width: 75vh;
+  outline: none;
 }
 
 @media only screen and (max-width: 600px) {
