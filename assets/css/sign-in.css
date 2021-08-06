@@ -21,6 +21,7 @@ body {
   width: 150px;
   padding-top: 45px;
   margin: 20px;
+  outline: none;
 }
 
 .header__img:hover {
