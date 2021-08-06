@@ -1,3 +1,4 @@
+
 body {
   font-family: "Mulish", sans-serif;
   margin: 0;
@@ -88,7 +89,7 @@ ul:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 200px;
+  height: 150px;
   border-radius: 0px 0px 40px 40px;
 }
 
@@ -140,7 +141,7 @@ ul:hover {
   transition: 450ms transform, 450ms -webkit-transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70px 0px;
+  margin: 70px 0px 45px 0px;
   border-radius: 20px;
 }
 
@@ -254,15 +255,15 @@ ul:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(190, 189, 189, 0.219);
+  background: #bebdbd38;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.281);
+  background: #ffffff48;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.699);
+  background: #ffffffb2;
 }
 
 .container__notFound {
@@ -276,6 +277,10 @@ ul:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .header__img {
+    width: 139px;
+  }
+
   .container__notFound--image img {
     width: 43vh;
     margin: 30% 0 25% 0;
