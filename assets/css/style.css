@@ -201,6 +201,8 @@ ul:hover {
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-start;
+    -moz-border-radius: 20px;
+  border-radius: 20px;
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.9) 0%,
